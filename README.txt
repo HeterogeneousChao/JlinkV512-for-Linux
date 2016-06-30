@@ -12,6 +12,8 @@ This is a Jlink tool to upload bootloader to Nake ARM board
 		mem   assr NumBytes(hex)	 // for read memory
 		
 		
+		xxd /src.bin | less              // use at terminale commandline to show the binary file and compare with the mem info to make sure the upload is success!~		
+		
 						
 							ZHAOCHAO
 								2016-6-30
