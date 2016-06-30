@@ -9,7 +9,7 @@ This is a Jlink tool to upload bootloader to Nake ARM board
 		g  		 		 // for go
 		h  		 		 // for halt
 		setpc addr      		 // for set PC register
-		mem   assr NumBytes(hex)	 //for read memory
+		mem   assr NumBytes(hex)	 // for read memory
 		
 		
 						
