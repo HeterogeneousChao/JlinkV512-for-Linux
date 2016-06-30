@@ -4,7 +4,7 @@ This is a Jlink tool to upload bootloader to Nake ARM board
 		exec device = STM32F427VI
 		loadbin /src.bin addr(typical: 0x08000000) 
 				 		 // this addr define at bootloader seg define
-		speed 12000 	 		 //for set the speed
+		speed 12000 	 		 // for set the speed
 		r				 // for Reset target
 		g  		 		 // for go
 		h  		 		 // for halt
